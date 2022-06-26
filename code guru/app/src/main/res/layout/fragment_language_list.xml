@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".language_list">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/java"
+                android:layout_width="215dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center|center_vertical"
+                android:layout_margin="20dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/java_logo"
+                tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+            <ImageButton
+                android:id="@+id/cppbtn"
+                android:layout_width="209dp"
+                android:layout_height="225dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/cpp"
+                tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+                tools:src="@drawable/cpp" />
+
+            <ImageButton
+                android:id="@+id/cppbtn2"
+                android:layout_width="209dp"
+                android:layout_height="225dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/python"
+                tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/cppbtn3"
+                android:layout_width="209dp"
+                android:layout_height="225dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/vbnet"
+                tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/cppbtn4"
+                android:layout_width="209dp"
+                android:layout_height="225dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="#FFFFFF"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/mysql"
+                tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "397049461476",
+    "project_id": "codeguru-ac369",
+    "storage_bucket": "codeguru-ac369.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397049461476:android:e60aa02c4bd938bf878af1",
+        "android_client_info": {
+          "package_name": "com.example.codeguru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397049461476-u5bvfgbnchjn63ivoae1oud0bb9b8rvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEa18K7zpZWF8yCToEJAhrM46vvY2ZFrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397049461476-u5bvfgbnchjn63ivoae1oud0bb9b8rvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.codeguru">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CodeGuru">
+        <activity
+            android:name=".use_Q8"
+            android:exported="false" />
+        <activity
+            android:name=".View_cpp"
+            android:exported="false" />
+        <activity
+            android:name=".splashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".use_Q7"
+            android:exported="false" />
+        <activity
+            android:name=".use_Q6"
+            android:exported="false" />
+        <activity
+            android:name=".use_Q5"
+            android:exported="false" />
+        <activity
+            android:name=".use_Q4"
+            android:exported="false" />
+        <activity
+            android:name=".use_Q3"
+            android:exported="false" />
+        <activity
+            android:name=".use_Q2"
+            android:exported="false" />
+        <activity
+            android:name=".use_Q1"
+            android:exported="false" />
+        <activity
+            android:name=".java_Q12"
+            android:exported="false" />
+        <activity
+            android:name=".java_Q11"
+            android:exported="false" />
+        <activity
+            android:name=".java_Q10"
+            android:exported="false" />
+        <activity
+            android:name=".java_Q9"
+            android:exported="false" />
+        <activity
+            android:name=".java_Q8"
+            android:exported="false" />
+        <activity
+            android:name=".java_Q7"
+            android:exported="false" />
+        <activity
+            android:name=".java_Q6"
+            android:exported="false" />
+        <activity
+            android:name=".java_Q5"
+            android:exported="false" />
+        <activity
+            android:name=".java_Q4"
+            android:exported="false" />
+        <activity
+            android:name=".java_Q3"
+            android:exported="false" />
+        <activity
+            android:name=".java_Q2"
+            android:exported="false" />
+        <activity
+            android:name=".Q1"
+            android:exported="false" />
+        <activity
+            android:name=".View_java"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,324 @@
+<resources>
+    <string name="app_name">Code Guru</string>
+    <string name="welcome_to_code_guru">Welcome to Code Guru</string>
+    <string name="choose_what_you_want_to_do">Choose What You want to do?</string>
+    <string name="view_code">View code</string>
+    <string name="use_code">Use code</string>
+    <string name="exit">Exit</string>
+    <string name="java">java</string>
+    <string name="textview">TextView</string>
+    <string name="ot_i">Output image</string>
+    <string name="ot">Output</string>
+    <string name="m">Maths</string>
+    <string name="e">English</string>
+    <string name="s">Science</string>
+    <string name="h">Hindi</string>
+    <string name="EM">Enter Marks</string>
+    <string name="num1">Enter First Number</string>
+    <string name="num2">Enter Second Number</string>
+    <string name="num3">Enter Third Number</string>
+    <string name="it">Information Technology</string>
+    <string name="check_temp">To check your temperature is normal or not</string>
+    <string name="temp">Enter Temperature in Fahrenheit</string>
+    <string name="use_q1_1">Enter Marks for you eligible subject to choose</string>
+    <string name="javaqq1">Average and Percentage of 5 Subject.</string>
+    <string name="java_qq1">
+        import java.util.*;\n
+        public class average\n
+        {\n
+        public static void main(String[] args) {\n
+        Scanner ob = new Scanner(System.in);\n
+        System.out.println(\"Enter Marks for you eligible subject to choose\");\n
+        System.out.print(\"Maths = \");\n
+        float maths = ob.nextFloat();\n
+        System.out.print(\"English = \");\n
+        float eng = ob.nextFloat();\n
+        System.out.print(\"Biology = \");\n
+        float bio = ob.nextFloat();\n
+        System.out.print(\"Physics = \");\n
+        float physics = ob.nextFloat();\n
+        System.out.print(\"Chemistry = \");\n
+        float chem = ob.nextFloat();\n
+        float avg=(maths+chem+eng+bio+physics)/5;\n
+        System.out.println(\"Average is \"+avg+\", Percentage is \"+avg+\" \");\n
+        if (avg>=80)\n
+        {\n
+        System.out.println(\"You are eligible for Computer Science\");\n
+        }\n
+        else\n
+        {\n
+        System.out.println(\"You are eligible for Biology\");\n
+        }\n
+    }}</string>
+    <string name="javaqq2">Celsius to fahrenheit And tell you having fever or not.</string>
+    <string name="java_qq2">
+        import java.util.*;\n
+        public class celsius\n
+        {\n
+        public static void main(String[] args) {\n
+        Scanner ob = new Scanner(System.in);\n
+        System.out.print(\"Enter Temperature in Celsius= \");\n
+        float cel = ob.nextFloat();\n
+        float fah=(cel*9/5)+32;\n
+        if (fah>98.6) {\n
+            System.out.println(\"You Having Fever! \"+fah+\",Go to Doctor or take medicine and rest. \");\n
+        }\n
+        else\n
+        {\n
+            System.out.println(\"Temperature is Normal \"+fah);\n
+        }\n
+        }
+        }
+</string>
+    <string name="javaqq3">Enter 2 Number Show Sum,Difference,Product.</string>
+    <string name="java_qq3">import java.util.*;\n
+        public class diff {\n
+        public static void main(String[] args) {\n
+        Scanner object = new Scanner(System.in);\n
+        System.out.println(\"Enter The First Number: \");\n
+        // here i am taking the value from the user\n
+        int n1 = object.nextInt();\n
+        System.out.println(\"Enter The Second Number: \");\n
+        int n2 = object.nextInt();\n
+        int sum, diff, prod;\n
+        sum = n1 + n2;\n
+        if (n1 > n2) {\n
+
+            diff = n1 - n2;\n
+        } else {\n
+            diff = n2 - n1;\n
+        }\n
+        prod = n1 * n2;\n
+        // here i am printing all the results\n
+        System.out.println(\"Sum of \" + n1 + \" and \" + n2 + \" is- \" + sum);\n
+        System.out.println(\"Difference of \" + n1 + \" and \" + n2 + \" is- \" + diff);\n
+        System.out.println(\"Product of \" + n1 + \" and \" + n2 + \" is- \" + prod);\n
+        }}\n
+</string>
+    <string name="javaqq4">Sum and Average of Even , Maximum number given by the user.</string>
+    <string name="java_qq4">import java.util.*; \n
+        public class evening \n
+        {\n
+        public static void main(String[] args) {\n
+        int i, a = 0, c = 0, n, avg;\n
+        Scanner ob = new Scanner(System.in); \n
+        System.out.println("Enter number: "); \n
+        n = ob.nextInt();\n
+        for (i = 1; i  &#60;=n; i++){ \n
+        if (i % 2 == 0) { \n
+        a = a + i; \n
+        c = c + 1; \n
+        } \n
+        } \n
+        avg = a / c; \n
+        System.out.println(\"Sum: \"+a+\" number of time: \"+c); \n
+        System.out.println(\"The Average of \" + n + \" Event Number: \" + avg); \n
+        }}</string>
+    <string name="javaqq5">Find Factorial of the number.</string>
+    <string name="java_qq5">
+        import java.util.*;\n
+        public class factorial\n
+        {\n
+        public static void main(String[] args)\n
+        {\n
+        int i,fact=1,n;\n
+        Scanner ob=new Scanner(System.in);\n
+        System.out.print(\"Enter The Number: \");\n
+        n=ob.nextInt();\n
+        for (i=1;i&#60;=n;i++)\n
+        {\n
+        fact=fact*i;\n
+        }\n
+        System.out.println(\"Factorial of \"+n+\" is \"+fact);\n
+        }}\n
+</string>
+    <string name="javaqq6">Find Greater number in 3 input by user.</string>
+    <string name="java_qq6">
+        import java.util.*;\n
+        public class greatest {\n
+        public static void main(String[] args) {\n
+        Scanner ob = new Scanner(System.in);\n
+        System.out.println(\"Enter First Number \");\n
+        int n1 = ob.nextInt();\n
+        System.out.println(\"Enter Second Number \");\n
+        int n2 = ob.nextInt();\n
+        System.out.println(\"Enter Third Number \");\n
+        int n3 = ob.nextInt();\n
+        if (n1 > n2 &#38;&#38; n1 > n3) {\n
+        System.out.println(n1 + \"is grater\");\n
+        } else if (n2 > n3) {\n
+        System.out.println(n2 + \"is greater\");\n
+        } else if (n3 > n1 &#38;&#38; n3 > n2) {\n
+        System.out.println(n3 + \"is greater\");\n
+        } else {\n
+        System.out.println(\"All are equal\");\n
+        }}
+        }
+</string>
+    <string name="javaqq7">Find total Salary when we have the some charges.</string>
+    <string name="java_qq7">
+        import java.util.*;\n
+        public class Gross_Salary\n
+        {\n
+        public static void main(String[] args)\n
+        {\n
+        Scanner ob = new Scanner(System.in);\n
+        System.out.println(\"Enter You Salary\");\n
+        int sal = ob.nextInt();\n
+        int da=sal*20/100;\n
+        int hra=sal*10/100;\n
+        int cta=sal*12/100;\n
+        int gs=sal+da+hra+cta;\n
+        int ad=gs-sal;\n
+        System.out.print(sal);\n
+        System.out.print(\" + \");\n
+        System.out.print(ad);\n
+        //additional Charges\n
+        System.out.print(\" = \"+gs);\n
+        }}
+</string>
+    <string name="javaqq8">Find the selling price after discount.</string>
+    <string name="java_qq8">
+        import java.util.*;\n
+        public class market {\n
+        public static void main(String[] args) {\n
+        Scanner ob = new Scanner(System.in);\n
+        System.out.println(\"Enter Customer Name: \");\n
+        String name = ob.next();\n
+        System.out.print(\"Enter Total Cost= \");\n
+        double tc = ob.nextDouble();\n
+        double dis=0;\n
+        if (tc&#60;=2000) {\n
+            dis=(tc*0.05);\n
+        }\n
+        else if(tc>2000&#38;&#38;tc&#60;=5000)\n
+        {\n
+            dis=(tc*0.1);\n
+        }\n
+        else if(tc>5000&#38;&#38;tc&#60;=10000)\n
+        {\n
+            dis=(tc*0.15);\n
+        }\n
+        else if(tc&#60;10000)\n
+        {\n
+            dis=(tc*0.2);\n
+        }\n
+        double afterd=tc-dis;\n
+        System.out.println(name);\n
+        System.out.println(\"After Discount= \"+afterd);\n
+        }}\n
+</string>
+    <string name="javaqq9">Check weather the number is negative , positive and netural.</string>
+    <string name="java_qq9">
+        import java.util.*;\n
+        public class pvornv {\n
+        public static void main(String[] args) {\n
+        Scanner ob = new Scanner(System.in);\n
+        System.out.println(\"Enter First Number \");\n
+        int n1 = ob.nextInt();\n
+        if (n1&#60;0) \n
+        {\n
+        System.out.println(n1+\" Negative Number\");\n
+        }\n
+        else if(n1>0)\n
+        {\n
+        System.out.println(n1+\" Positive Number\");\n
+        }\n
+        else \n
+        {\n
+        System.out.println(n1+\" Netural Number\");\n
+        }\n
+        }}\n
+    </string>
+    <string name="javaqq10">Find Area and Perimeter of rectangle.</string>
+    <string name="java_qq10">
+        import java.util.*;\n
+        public class rectangle {\n
+        public static void main(String[] args)\n
+        {\n
+        Scanner ob=new Scanner(System.in);\n
+        System.out.println(\"Enter Length of Rectangle-\");\n
+        int len=ob.nextInt();\n
+        System.out.println(\"Enter Breath of Rectangle-\");\n
+        int bre=ob.nextInt();\n
+        System.out.println(\"Area is -\"+len*bre);\n
+        int per=2*(len+bre);\n
+        System.out.println(\"Perimeter is -\"+per);\n
+        }}
+    </string>
+    <string name="javaqq11">Find the selling price of two discount 10 and 20.</string>
+    <string name="java_qq11">
+        import java.util.*;\n
+        public class sellingprice\n
+        {\n
+        public static void main(String[] args) {\n
+        Scanner ob = new Scanner(System.in);\n
+        System.out.print(\"Enter Market price= \");\n
+        int mp = ob.nextInt();\n
+        int disp=10+20-(10*20)/100;\n
+        System.out.println(disp);\n
+        int dis=mp*disp/100;\n
+        int sp=mp-dis;\n
+        System.out.println(\"Selling price= \"+sp);\n
+        }}\n
+    </string>
+    <string name="javaqq12">square of greater number and cube of small number.</string>
+    <string name="java_qq12">
+        import java.util.*;\n
+        public class square\n
+        {\n
+        public static void main(String[] args) {\n
+        int n1,n2,sq,cu;\n
+        Scanner ob=new Scanner(System.in);\n
+        System.out.print(\"Enter the First number: \");\n
+        n1=ob.nextInt();\n
+        System.out.print(\"Enter the Second number: \");\n
+        n2=ob.nextInt();\n
+        if(n1>n2){\n
+        sq=n1*n1;\n
+        cu=n2*n2*n2;\n
+        System.out.println(\"Square of \"+n1+\": \"+sq+\", Cube of \"+n2+\", \"+cu);\n
+        }\n
+        else if(n2>n1){\n
+        sq=n2*n2;\n
+        cu=n1*n1*n1;\n
+        System.out.println(\"Square of \"+n2+\": \"+sq+\", Cube of \"+n1+\", \"+cu);\n
+        }\n
+        else\n
+        {\n
+        System.out.println(\"Both are Equal\");\n
+        }\n
+        }}\n
+    </string>
+    <string name="check">check</string>
+    <string name="enter_here">Enter here</string>
+    <string name="view_java">Select the program from the list</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_picture">Title picture</string>
+    <string name="step1">
+        Try to Find What you want to do and
+        You Enjoy while doing that work.
+        or find different path.
+    </string>
+    <string name="step2">
+        Now when you find you Intrest, Then find how learn with any source like Youtube ,Website ,Books ,Teacher etc.
+    </string>
+    <string name="step3">
+        Now use (Build, error and learn). Daily at least 2 to 3 hours of practice.
+    </string>
+    <string name="step4">
+        Do this process 1 month you notice you are improving at unbelievably rate.
+    </string>
+    <string name="how_you_improve_you_coding_skills">How you Improve you Coding Skills?</string>
+    <string name="steps">Steps</string>
+    <string name="languages">Languages</string>
+    <string name="home">Home</string>
+    <string name="use_program">Use Programs</string>
+    <string name="todo" />
+    <string name="eshaan">eshaan</string>
+    <string name="water_bill">Water Bill</string>
+    <string name="lr">Last Reading</string>
+    <string name="cr">Current Reading+</string>
+    <string name="nod">Number of Days</string>
+</resources>
